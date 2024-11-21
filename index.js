@@ -84,6 +84,15 @@ console.log(somma(1, 2, 3));
 console.log(somma(10, 30, 50));
 console.log(somma(10));
 
+// destructuring e rest operator su array
+let nuovoArray = [1, 2, 3, 4, 5];
+
+let [uno, due, ...rest] = nuovoArray;
+
+console.log(uno);
+console.log(due);
+console.log(rest);
+
 
 
 
