@@ -14,5 +14,15 @@ let [first = 0, second = 0, third = 0, quarto = 0, quinto = 0] = arrNumeri;
  console.log(quarto);
  console.log(quinto);
 
+ //destructuring sugli oggetii
+ let messaggio = {
+    titolo: "Ciao sono Giovanni",
+    testo: "Sto Facendo gli Esercizi"
+ };
+
+ let {titolo, testo} = messaggio;
+ console.log(titolo);
+ console.log(testo);
+
 
 
