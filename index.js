@@ -34,5 +34,19 @@ let [first = 0, second = 0, third = 0, quarto = 0, quinto = 0] = arrNumeri;
  console.log(nome);
  console.log(cognome);
 
+ // utilizzo dello spread operator
+ let arrayOriginale = [1, 2, 3, 4, 5];
+
+ //uso lo spread per creare una copia 
+ let copiaArray = [...arrayOriginale];
+
+ //modifico l'array originale
+
+ arrayOriginale.push(6);
+
+//stampo entrambi in console
+console.log( "array originale", arrayOriginale);
+console.log("copia dell'array", copiaArray);
+
 
 
