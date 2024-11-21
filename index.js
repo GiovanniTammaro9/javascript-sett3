@@ -93,6 +93,19 @@ console.log(uno);
 console.log(due);
 console.log(rest);
 
+//destructuring e rest su un oggetto
+let object = {
+    citta: "napoli",
+    paese: "italia",
+    continente: "europa",
+    lingua: "italiano"
+};
+
+let {citta, paese, ...more} = object;
+console.log(citta);
+console.log(paese);
+console.log(more);
+
 
 
 
