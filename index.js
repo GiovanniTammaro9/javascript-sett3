@@ -56,5 +56,20 @@ let array2 = [4, 5, 6];
 let unioneArray = [...array1, ...array2];
 console.log(unioneArray);
 
+//utilizzo spread operator su un oggetto
+let oggettoOriginale = {
+    nome: "Giovanni",
+    età: "29",
+};
+
+//uso lo spread per creare una copia ed aggiungere una proprietà
+let copiaOggetto = {
+    ...oggettoOriginale,
+    professione: "programmatore"
+};
+
+console.log(oggettoOriginale);
+console.log(copiaOggetto);
+
 
 
