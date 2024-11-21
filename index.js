@@ -24,5 +24,15 @@ let [first = 0, second = 0, third = 0, quarto = 0, quinto = 0] = arrNumeri;
  console.log(nomeTitolo);
  console.log(contenutoTesto);
 
+ //oggetto con proprietà mancante
+ let oggetto = {
+    nome: "Giovanni"
+    //manca la proprietà cognome
+ };
+
+ let {nome, cognome = "testo predefinito"} = oggetto;
+ console.log(nome);
+ console.log(cognome);
+
 
 
