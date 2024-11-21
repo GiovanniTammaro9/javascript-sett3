@@ -71,5 +71,19 @@ let copiaOggetto = {
 console.log(oggettoOriginale);
 console.log(copiaOggetto);
 
+//scrivo una funzione che utilizza rest operator con l'oggetto arguments
+function somma() {
+    let totale = 0;
+    for (let i = 0; i < arguments.length; i++) {
+        totale += arguments[i]; //sommo ogni valore
+    }
+    return totale;
+}
+
+console.log(somma(1, 2, 3));
+console.log(somma(10, 30, 50));
+console.log(somma(10));
+
+
 
 
