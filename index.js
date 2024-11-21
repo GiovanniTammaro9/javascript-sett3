@@ -48,5 +48,13 @@ let [first = 0, second = 0, third = 0, quarto = 0, quinto = 0] = arrNumeri;
 console.log( "array originale", arrayOriginale);
 console.log("copia dell'array", copiaArray);
 
+//utilizzo lo spread per unire due array
+let array1 = [1, 2, 3];
+let array2 = [4, 5, 6];
+
+//unisco gli array
+let unioneArray = [...array1, ...array2];
+console.log(unioneArray);
+
 
 
