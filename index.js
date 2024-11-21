@@ -20,9 +20,9 @@ let [first = 0, second = 0, third = 0, quarto = 0, quinto = 0] = arrNumeri;
     testo: "Sto Facendo gli Esercizi"
  };
 
- let {titolo, testo} = messaggio;
- console.log(titolo);
- console.log(testo);
+ let {titolo: nomeTitolo, testo: contenutoTesto} = messaggio;
+ console.log(nomeTitolo);
+ console.log(contenutoTesto);
 
 
 
